@@ -111,4 +111,54 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+}/* Портфолио */
+.portfolio-grid {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
 }
+
+.portfolio-item {
+    flex: 1;
+    background: white;
+    border: 1px solid #B2BCCB;
+    padding: 20px 10px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #4A4A4A;
+    font-size: 14px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.portfolio-item:hover {
+    background-color: #F0F1F3;
+}
+
+/* Прайслист */
+.price-card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #D7D4D2;
+}
+
+.price-line {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #F0F1F3;
+    font-size: 14px;
+}
+
+.price-line:last-child {
+    border-bottom: none;
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    color: #938E8D;
+}
+
