@@ -97,3 +97,18 @@ nav {
     border-radius: 15px;
     text-align: center;
 }
+.profile-pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Чтобы лицо Мацуды было по центру */
+    border-radius: 10px; /* Чтобы углы были мягкими, как в палитре */
+}
+
+.photo-placeholder {
+    width: 100px;
+    height: 100px;
+    overflow: hidden; /* Обрезает лишнее */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
