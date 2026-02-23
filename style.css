@@ -161,4 +161,7 @@ h2 {
     margin-bottom: 15px;
     color: #938E8D;
 }
+section {
+    scroll-margin-top: 20px; /* Добавит немного воздуха сверху при переходе по ссылке */
+}
 
